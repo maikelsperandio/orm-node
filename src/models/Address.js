@@ -6,6 +6,7 @@ class Address extends Model {
       zipcode: DataTypes.STRING,
       street: DataTypes.STRING,
       number: DataTypes.INTEGER,
+      city: DataTypes.STRING,
     }, {
       sequelize: connection
     })
